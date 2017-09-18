@@ -1,1 +1,20 @@
 This is an initial attempt to Create a Decoder for Some Eurocontrol Messages.
+
+Some Refrences:
+
+1/ ICAO: Annex 10 to the Convention on International Civil Aviation.
+	Volume 4 "Surveillance And Collision Avoidance Systems"
+
+	- In this file You find the Char Map for the 6-bit char Encoding for the
+	aircraft Identification Characters.
+	"Character coding for transmission of aircraft identification by data link"
+	Table 3-8
+
+
+2/ ICAO: Technical Provisions for Mode S Services and Extended Squitter
+
+	- Here you find all the BDS codes & their formats.
+		take a look at the "TABLES FOR SECTION A.2" Appendix A.
+		You will find all the tables that defines all the BDS codes formats.
+ 
+	  
