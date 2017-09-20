@@ -22,5 +22,7 @@ II/ Some Refrences: On the "Doc" Directory.
 	- Here you find all the BDS codes & their formats.
 		take a look at the "TABLES FOR SECTION A.2" Appendix A.
 		You will find all the tables that defines all the BDS codes formats.
- 
+
+3/ The Sample Code for Cat048 is taken from Here:
+	https://github.com/CroatiaControlLtd/asterix/tree/master/asterix/sample_data  
 	  
