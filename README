@@ -1,6 +1,11 @@
 This is an initial attempt to Create a Decoder for Some Eurocontrol Messages.
 
-Some Refrences:
+I/ How to use the Script:
+
+python pydec.py "Binary_File_Name" > "Output text"
+
+
+II/ Some Refrences: On the "Doc" Directory.
 
 1/ ICAO: Annex 10 to the Convention on International Civil Aviation.
 	Volume 4 "Surveillance And Collision Avoidance Systems"
