@@ -1,8 +1,7 @@
 This is an initial attempt to Create a Decoder for Some Eurocontrol Messages.
 
 I/ How to use the Script:
-
-```
+```python
 python pydec.py "Binary_File_Name" > "Output text"
 ```
 
