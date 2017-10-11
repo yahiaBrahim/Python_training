@@ -117,15 +117,11 @@ def main(argv):
                     
                     Func.READ_FSPEC()
 
-                    #-------------------------------- Decode Categorie 48 ----------------------------- 
+                    # Decode CAT48:
                     if(Glob.cat == 48):
                         Func.Decode_48()
-                    # Decode CAT 001                                
-
+                    # Decode CAT001:                            
                     elif (Glob.cat == 1):
-
-                        #Glob.FSPEC1
-
                         Func.Decode_01()
     
     except EnvironmentError:
