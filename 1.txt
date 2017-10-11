@@ -1,0 +1,510 @@
+	
+
+     .oo .oPYo. ooooo .oPYo.  .oPYo. o  o    o        ooo.   oooooo 
+    .P 8 8        8   8.      8   `8 8  `b  d'        8  `8.     d' 
+   .P  8 `Yooo.   8   `boo   o8YooP' 8   `bd'         8   `8    d'  
+  oPooo8     `8   8   .P      8   `b 8   .PY.   ooooo 8    8   d'   
+ .P    8      8   8   8       8    8 8  .P  Y.        8   .P  d'    
+.P     8 `YooP'   8   `YooP'  8    8 8 .P    Y.       8ooo'  dooooo 
+..:::::..:.....:::..:::.....::..:::......::::..:::::::.....::.......
+:Q29kZWQgQnkgIk9TZHogRHpheWVyIgpXaXRoIHRoZSBoZWxwIE9mIFJhb3VmCkZhY2:
+::::::::::::Vib29rOiBPU2RldmR6Cg==::::::::::::::::::::::::::::::::::
+	
+
+------------------------------------------------
+------------------CAT: 1-----------------------
+------------------------------------------------
++--- Block Len : 72
+--------------(New Data Record)---------------
+FSPEC1 : 0b11110111
+FSPEC2 : 0b11000110
+ |____No Other FSPEC Extension
+------------------------
+FSPEC Item Has 2 bytes
+------------------------
++---I001/010 [Data Source Identifier]
+ |____ SAC : 25
+ |____ SIC : 201
+
++---I001/020 [Target Report Descriptor] 0b10100000: 
+ |____ DES.TYP : 1 : There is Track information (Not Plot)
+ |____ DES.SIM : 0 : Actual Track 
+ |____ DES.SSR/PSR : 10 : Secondary Detection 
+ |____ DES.ANT : 0 : Report from Antenna 1 
+ |____ DES.SPI : 0 : Default (No SPI) 
+ |____ DES.RAB : 0 : Default (Track/Plot Not From Fixed Transponder) 
+ |____ DES.FX : 0 : Extension Does not exist
+-----------------------------------------------------------------
+DES.TYP bit (Track/Plot) decides The Order of the Next Data Items
+-----------------------------------------------------------------
+Track :
++---I001/161 [TRACKN NUMBER]: 3762 
+Track :
++---I001/040 [POSITION IN POLAR CORDINATES]:
+ |____ RHO_MSPOLAR_CORD  : 30335 
+ |  		|____236.9922 NM
+ |____ THETA_MSPOLAR_CORD: 6292 
+   		|____34.6060 deg
+Track :
++---I001/200 : [TRACK VELOCITY IN POLAR CORD]:
+ |____ GROUND_SPEED : 2218 : [Ground Speed]
+ |		|____487.96 kt
+ |____ HEADING      : 17112 : [Heading]
+ 		|____85.56 deg
+Track :
++---I001/070 [Mode-3A Code in Octal Representation]
+ |____V : 0 :Code Validate
+ |____G : 0 :Code Not Garbled
+ |____L : 0 :Mode3_A Code As Derived From the Reply Of Transponder
+ |____bit13: 0 : [Spare Bit Always Set to 0]
+ |____Mode3_A reply In Octal : 1464
+		|____ Decimal : 820
+Track :
++---I001/090 : [Mode C Code In Binary Representation]
+ |____MODE_C_CODE_V : 0 : [Code Validated]
+ |____MODE_C_CODE_G : 0 : [Default (No Garbled)]
+ |____MODE_C_CODE_HEIGHT 	: 370.00 FL: [Mode-C Height]
+Track :
++---I001/141 [Truncated Time Of Day]: 256.10 sec
+Track :
++---I001/170 [TRACK STATUS] :
+ |____ CON : 0 : Track Confirmed
+ |____ RAD : 1 : SSR Combined Track
+ |____ MAN : 0 : Deafault
+ |____ DOU : 0 : Default
+ |____ RDPC: 0 : RDP (Radar Data Processing) chain 1
+ |____ bit-3 : Spare bit set to 0
+ |____ GHO: 0 : Default
+ |____ FX : 0 : Extension Not Exist
+Track :
++---I001/210 [TRACK QUALITY INDICATOR] : 7
+ |____ FX : 0 : Extension Not Exist
+--------------(New Data Record)---------------
+FSPEC1 : 0b11110111
+FSPEC2 : 0b11000110
+ |____No Other FSPEC Extension
+------------------------
+FSPEC Item Has 2 bytes
+------------------------
++---I001/010 [Data Source Identifier]
+ |____ SAC : 25
+ |____ SIC : 201
+
++---I001/020 [Target Report Descriptor] 0b10110000: 
+ |____ DES.TYP : 1 : There is Track information (Not Plot)
+ |____ DES.SIM : 0 : Actual Track 
+ |____ DES.SSR/PSR : 11 : Primary + Secondary Detection 
+ |____ DES.ANT : 0 : Report from Antenna 1 
+ |____ DES.SPI : 0 : Default (No SPI) 
+ |____ DES.RAB : 0 : Default (Track/Plot Not From Fixed Transponder) 
+ |____ DES.FX : 0 : Extension Does not exist
+-----------------------------------------------------------------
+DES.TYP bit (Track/Plot) decides The Order of the Next Data Items
+-----------------------------------------------------------------
+Track :
++---I001/161 [TRACKN NUMBER]: 3957 
+Track :
++---I001/040 [POSITION IN POLAR CORDINATES]:
+ |____ RHO_MSPOLAR_CORD  : 25068 
+ |  		|____195.8438 NM
+ |____ THETA_MSPOLAR_CORD: 6676 
+   		|____36.7180 deg
+Track :
++---I001/200 : [TRACK VELOCITY IN POLAR CORD]:
+ |____ GROUND_SPEED : 1918 : [Ground Speed]
+ |		|____421.96 kt
+ |____ HEADING      : 46421 : [Heading]
+ 		|____232.11 deg
+Track :
++---I001/070 [Mode-3A Code in Octal Representation]
+ |____V : 0 :Code Validate
+ |____G : 0 :Code Not Garbled
+ |____L : 0 :Mode3_A Code As Derived From the Reply Of Transponder
+ |____bit13: 0 : [Spare Bit Always Set to 0]
+ |____Mode3_A reply In Octal : 7122
+		|____ Decimal : 3666
+Track :
++---I001/090 : [Mode C Code In Binary Representation]
+ |____MODE_C_CODE_V : 0 : [Code Validated]
+ |____MODE_C_CODE_G : 0 : [Default (No Garbled)]
+ |____MODE_C_CODE_HEIGHT 	: 340.00 FL: [Mode-C Height]
+Track :
++---I001/141 [Truncated Time Of Day]: 256.16 sec
+Track :
++---I001/170 [TRACK STATUS] :
+ |____ CON : 0 : Track Confirmed
+ |____ RAD : 1 : SSR Combined Track
+ |____ MAN : 0 : Deafault
+ |____ DOU : 0 : Default
+ |____ RDPC: 0 : RDP (Radar Data Processing) chain 1
+ |____ bit-3 : Spare bit set to 0
+ |____ GHO: 0 : Default
+ |____ FX : 0 : Extension Not Exist
+Track :
++---I001/210 [TRACK QUALITY INDICATOR] : 7
+ |____ FX : 0 : Extension Not Exist
+--------------(New Data Record)---------------
+FSPEC1 : 0b11110111
+FSPEC2 : 0b11000110
+ |____No Other FSPEC Extension
+------------------------
+FSPEC Item Has 2 bytes
+------------------------
++---I001/010 [Data Source Identifier]
+ |____ SAC : 25
+ |____ SIC : 201
+
++---I001/020 [Target Report Descriptor] 0b10110000: 
+ |____ DES.TYP : 1 : There is Track information (Not Plot)
+ |____ DES.SIM : 0 : Actual Track 
+ |____ DES.SSR/PSR : 11 : Primary + Secondary Detection 
+ |____ DES.ANT : 0 : Report from Antenna 1 
+ |____ DES.SPI : 0 : Default (No SPI) 
+ |____ DES.RAB : 0 : Default (Track/Plot Not From Fixed Transponder) 
+ |____ DES.FX : 0 : Extension Does not exist
+-----------------------------------------------------------------
+DES.TYP bit (Track/Plot) decides The Order of the Next Data Items
+-----------------------------------------------------------------
+Track :
++---I001/161 [TRACKN NUMBER]: 3530 
+Track :
++---I001/040 [POSITION IN POLAR CORDINATES]:
+ |____ RHO_MSPOLAR_CORD  : 27102 
+ |  		|____211.7344 NM
+ |____ THETA_MSPOLAR_CORD: 6780 
+   		|____37.2900 deg
+Track :
++---I001/200 : [TRACK VELOCITY IN POLAR CORD]:
+ |____ GROUND_SPEED : 2032 : [Ground Speed]
+ |		|____447.04 kt
+ |____ HEADING      : 4369 : [Heading]
+ 		|____21.84 deg
+Track :
++---I001/070 [Mode-3A Code in Octal Representation]
+ |____V : 0 :Code Validate
+ |____G : 0 :Code Not Garbled
+ |____L : 0 :Mode3_A Code As Derived From the Reply Of Transponder
+ |____bit13: 0 : [Spare Bit Always Set to 0]
+ |____Mode3_A reply In Octal : 7060
+		|____ Decimal : 3632
+Track :
++---I001/090 : [Mode C Code In Binary Representation]
+ |____MODE_C_CODE_V : 0 : [Code Validated]
+ |____MODE_C_CODE_G : 0 : [Default (No Garbled)]
+ |____MODE_C_CODE_HEIGHT 	: 390.00 FL: [Mode-C Height]
+Track :
++---I001/141 [Truncated Time Of Day]: 256.17 sec
+Track :
++---I001/170 [TRACK STATUS] :
+ |____ CON : 0 : Track Confirmed
+ |____ RAD : 1 : SSR Combined Track
+ |____ MAN : 0 : Deafault
+ |____ DOU : 0 : Default
+ |____ RDPC: 0 : RDP (Radar Data Processing) chain 1
+ |____ bit-3 : Spare bit set to 0
+ |____ GHO: 0 : Default
+ |____ FX : 0 : Extension Not Exist
+Track :
++---I001/210 [TRACK QUALITY INDICATOR] : 7
+ |____ FX : 0 : Extension Not Exist
+
+------------------------------------------------
+------------------CAT: 1-----------------------
+------------------------------------------------
++--- Block Len : 26
+--------------(New Data Record)---------------
+FSPEC1 : 0b11110111
+FSPEC2 : 0b11000110
+ |____No Other FSPEC Extension
+------------------------
+FSPEC Item Has 2 bytes
+------------------------
++---I001/010 [Data Source Identifier]
+ |____ SAC : 25
+ |____ SIC : 201
+
++---I001/020 [Target Report Descriptor] 0b10110000: 
+ |____ DES.TYP : 1 : There is Track information (Not Plot)
+ |____ DES.SIM : 0 : Actual Track 
+ |____ DES.SSR/PSR : 11 : Primary + Secondary Detection 
+ |____ DES.ANT : 0 : Report from Antenna 1 
+ |____ DES.SPI : 0 : Default (No SPI) 
+ |____ DES.RAB : 0 : Default (Track/Plot Not From Fixed Transponder) 
+ |____ DES.FX : 0 : Extension Does not exist
+-----------------------------------------------------------------
+DES.TYP bit (Track/Plot) decides The Order of the Next Data Items
+-----------------------------------------------------------------
+Track :
++---I001/161 [TRACKN NUMBER]: 3432 
+Track :
++---I001/040 [POSITION IN POLAR CORDINATES]:
+ |____ RHO_MSPOLAR_CORD  : 23688 
+ |  		|____185.0625 NM
+ |____ THETA_MSPOLAR_CORD: 7392 
+   		|____40.6560 deg
+Track :
++---I001/200 : [TRACK VELOCITY IN POLAR CORD]:
+ |____ GROUND_SPEED : 2114 : [Ground Speed]
+ |		|____465.08 kt
+ |____ HEADING      : 20388 : [Heading]
+ 		|____101.94 deg
+Track :
++---I001/070 [Mode-3A Code in Octal Representation]
+ |____V : 0 :Code Validate
+ |____G : 0 :Code Not Garbled
+ |____L : 0 :Mode3_A Code As Derived From the Reply Of Transponder
+ |____bit13: 0 : [Spare Bit Always Set to 0]
+ |____Mode3_A reply In Octal : 112
+		|____ Decimal : 74
+Track :
++---I001/090 : [Mode C Code In Binary Representation]
+ |____MODE_C_CODE_V : 0 : [Code Validated]
+ |____MODE_C_CODE_G : 0 : [Default (No Garbled)]
+ |____MODE_C_CODE_HEIGHT 	: 310.00 FL: [Mode-C Height]
+Track :
++---I001/141 [Truncated Time Of Day]: 256.27 sec
+Track :
++---I001/170 [TRACK STATUS] :
+ |____ CON : 0 : Track Confirmed
+ |____ RAD : 1 : SSR Combined Track
+ |____ MAN : 0 : Deafault
+ |____ DOU : 0 : Default
+ |____ RDPC: 0 : RDP (Radar Data Processing) chain 1
+ |____ bit-3 : Spare bit set to 0
+ |____ GHO: 0 : Default
+ |____ FX : 0 : Extension Not Exist
+Track :
++---I001/210 [TRACK QUALITY INDICATOR] : 7
+ |____ FX : 0 : Extension Not Exist
+
+
+##########################################
+Don't Support Cat 2
+Block Data Skipped N= 1
++---CAT: 2
+len is 11 
+##########################################
+
+
+------------------------------------------------
+------------------CAT: 1-----------------------
+------------------------------------------------
++--- Block Len : 26
+--------------(New Data Record)---------------
+FSPEC1 : 0b11110111
+FSPEC2 : 0b11000110
+ |____No Other FSPEC Extension
+------------------------
+FSPEC Item Has 2 bytes
+------------------------
++---I001/010 [Data Source Identifier]
+ |____ SAC : 25
+ |____ SIC : 201
+
++---I001/020 [Target Report Descriptor] 0b10110000: 
+ |____ DES.TYP : 1 : There is Track information (Not Plot)
+ |____ DES.SIM : 0 : Actual Track 
+ |____ DES.SSR/PSR : 11 : Primary + Secondary Detection 
+ |____ DES.ANT : 0 : Report from Antenna 1 
+ |____ DES.SPI : 0 : Default (No SPI) 
+ |____ DES.RAB : 0 : Default (Track/Plot Not From Fixed Transponder) 
+ |____ DES.FX : 0 : Extension Does not exist
+-----------------------------------------------------------------
+DES.TYP bit (Track/Plot) decides The Order of the Next Data Items
+-----------------------------------------------------------------
+Track :
++---I001/161 [TRACKN NUMBER]: 3297 
+Track :
++---I001/040 [POSITION IN POLAR CORDINATES]:
+ |____ RHO_MSPOLAR_CORD  : 29527 
+ |  		|____230.6797 NM
+ |____ THETA_MSPOLAR_CORD: 7720 
+   		|____42.4600 deg
+Track :
++---I001/200 : [TRACK VELOCITY IN POLAR CORD]:
+ |____ GROUND_SPEED : 2077 : [Ground Speed]
+ |		|____456.94 kt
+ |____ HEADING      : 53520 : [Heading]
+ 		|____267.60 deg
+Track :
++---I001/070 [Mode-3A Code in Octal Representation]
+ |____V : 0 :Code Validate
+ |____G : 0 :Code Not Garbled
+ |____L : 0 :Mode3_A Code As Derived From the Reply Of Transponder
+ |____bit13: 0 : [Spare Bit Always Set to 0]
+ |____Mode3_A reply In Octal : 5304
+		|____ Decimal : 2756
+Track :
++---I001/090 : [Mode C Code In Binary Representation]
+ |____MODE_C_CODE_V : 0 : [Code Validated]
+ |____MODE_C_CODE_G : 0 : [Default (No Garbled)]
+ |____MODE_C_CODE_HEIGHT 	: 360.00 FL: [Mode-C Height]
+Track :
++---I001/141 [Truncated Time Of Day]: 256.31 sec
+Track :
++---I001/170 [TRACK STATUS] :
+ |____ CON : 0 : Track Confirmed
+ |____ RAD : 1 : SSR Combined Track
+ |____ MAN : 0 : Deafault
+ |____ DOU : 0 : Default
+ |____ RDPC: 0 : RDP (Radar Data Processing) chain 1
+ |____ bit-3 : Spare bit set to 0
+ |____ GHO: 0 : Default
+ |____ FX : 0 : Extension Not Exist
+Track :
++---I001/210 [TRACK QUALITY INDICATOR] : 7
+ |____ FX : 0 : Extension Not Exist
+
+------------------------------------------------
+------------------CAT: 1-----------------------
+------------------------------------------------
++--- Block Len : 26
+--------------(New Data Record)---------------
+FSPEC1 : 0b11110111
+FSPEC2 : 0b11000110
+ |____No Other FSPEC Extension
+------------------------
+FSPEC Item Has 2 bytes
+------------------------
++---I001/010 [Data Source Identifier]
+ |____ SAC : 25
+ |____ SIC : 201
+
++---I001/020 [Target Report Descriptor] 0b10100000: 
+ |____ DES.TYP : 1 : There is Track information (Not Plot)
+ |____ DES.SIM : 0 : Actual Track 
+ |____ DES.SSR/PSR : 10 : Secondary Detection 
+ |____ DES.ANT : 0 : Report from Antenna 1 
+ |____ DES.SPI : 0 : Default (No SPI) 
+ |____ DES.RAB : 0 : Default (Track/Plot Not From Fixed Transponder) 
+ |____ DES.FX : 0 : Extension Does not exist
+-----------------------------------------------------------------
+DES.TYP bit (Track/Plot) decides The Order of the Next Data Items
+-----------------------------------------------------------------
+Track :
++---I001/161 [TRACKN NUMBER]: 3088 
+Track :
++---I001/040 [POSITION IN POLAR CORDINATES]:
+ |____ RHO_MSPOLAR_CORD  : 20812 
+ |  		|____162.5938 NM
+ |____ THETA_MSPOLAR_CORD: 8492 
+   		|____46.7060 deg
+Track :
++---I001/200 : [TRACK VELOCITY IN POLAR CORD]:
+ |____ GROUND_SPEED : 1500 : [Ground Speed]
+ |		|____330.00 kt
+ |____ HEADING      : 58071 : [Heading]
+ 		|____290.36 deg
+Track :
++---I001/070 [Mode-3A Code in Octal Representation]
+ |____V : 0 :Code Validate
+ |____G : 0 :Code Not Garbled
+ |____L : 0 :Mode3_A Code As Derived From the Reply Of Transponder
+ |____bit13: 0 : [Spare Bit Always Set to 0]
+ |____Mode3_A reply In Octal : 2636
+		|____ Decimal : 1438
+Track :
++---I001/090 : [Mode C Code In Binary Representation]
+ |____MODE_C_CODE_V : 0 : [Code Validated]
+ |____MODE_C_CODE_G : 0 : [Default (No Garbled)]
+ |____MODE_C_CODE_HEIGHT 	: 150.50 FL: [Mode-C Height]
+Track :
++---I001/141 [Truncated Time Of Day]: 256.44 sec
+Track :
++---I001/170 [TRACK STATUS] :
+ |____ CON : 0 : Track Confirmed
+ |____ RAD : 1 : SSR Combined Track
+ |____ MAN : 0 : Deafault
+ |____ DOU : 0 : Default
+ |____ RDPC: 0 : RDP (Radar Data Processing) chain 1
+ |____ bit-3 : Spare bit set to 0
+ |____ GHO: 0 : Default
+ |____ FX : 0 : Extension Not Exist
+Track :
++---I001/210 [TRACK QUALITY INDICATOR] : 7
+ |____ FX : 0 : Extension Not Exist
+
+------------------------------------------------
+------------------CAT: 1-----------------------
+------------------------------------------------
++--- Block Len : 26
+--------------(New Data Record)---------------
+FSPEC1 : 0b11110111
+FSPEC2 : 0b11000110
+ |____No Other FSPEC Extension
+------------------------
+FSPEC Item Has 2 bytes
+------------------------
++---I001/010 [Data Source Identifier]
+ |____ SAC : 25
+ |____ SIC : 201
+
++---I001/020 [Target Report Descriptor] 0b10110000: 
+ |____ DES.TYP : 1 : There is Track information (Not Plot)
+ |____ DES.SIM : 0 : Actual Track 
+ |____ DES.SSR/PSR : 11 : Primary + Secondary Detection 
+ |____ DES.ANT : 0 : Report from Antenna 1 
+ |____ DES.SPI : 0 : Default (No SPI) 
+ |____ DES.RAB : 0 : Default (Track/Plot Not From Fixed Transponder) 
+ |____ DES.FX : 0 : Extension Does not exist
+-----------------------------------------------------------------
+DES.TYP bit (Track/Plot) decides The Order of the Next Data Items
+-----------------------------------------------------------------
+Track :
++---I001/161 [TRACKN NUMBER]: 3853 
+Track :
++---I001/040 [POSITION IN POLAR CORDINATES]:
+ |____ RHO_MSPOLAR_CORD  : 14334 
+ |  		|____111.9844 NM
+ |____ THETA_MSPOLAR_CORD: 8648 
+   		|____47.5640 deg
+Track :
++---I001/200 : [TRACK VELOCITY IN POLAR CORD]:
+ |____ GROUND_SPEED : 1877 : [Ground Speed]
+ |		|____412.94 kt
+ |____ HEADING      : 53702 : [Heading]
+ 		|____268.51 deg
+Track :
++---I001/070 [Mode-3A Code in Octal Representation]
+ |____V : 0 :Code Validate
+ |____G : 0 :Code Not Garbled
+ |____L : 0 :Mode3_A Code As Derived From the Reply Of Transponder
+ |____bit13: 0 : [Spare Bit Always Set to 0]
+ |____Mode3_A reply In Octal : 2645
+		|____ Decimal : 1445
+Track :
++---I001/090 : [Mode C Code In Binary Representation]
+ |____MODE_C_CODE_V : 0 : [Code Validated]
+ |____MODE_C_CODE_G : 0 : [Default (No Garbled)]
+ |____MODE_C_CODE_HEIGHT 	: 360.00 FL: [Mode-C Height]
+Track :
++---I001/141 [Truncated Time Of Day]: 256.46 sec
+Track :
++---I001/170 [TRACK STATUS] :
+ |____ CON : 0 : Track Confirmed
+ |____ RAD : 1 : SSR Combined Track
+ |____ MAN : 0 : Deafault
+ |____ DOU : 0 : Default
+ |____ RDPC: 0 : RDP (Radar Data Processing) chain 1
+ |____ bit-3 : Spare bit set to 0
+ |____ GHO: 0 : Default
+ |____ FX : 0 : Extension Not Exist
+Track :
++---I001/210 [TRACK QUALITY INDICATOR] : 7
+ |____ FX : 0 : Extension Not Exist
+
+
+
+ .----------------.  .-----------------. .----------------. 
+| .--------------. || .--------------. || .--------------. |
+| |  _________   | || | ____  _____  | || |  ________    | |
+| | |_   ___  |  | || ||_   \|_   _| | || | |_   ___ `.  | |
+| |   | |_  \_|  | || |  |   \ | |   | || |   | |   `. \ | |
+| |   |  _|  _   | || |  | |\ \| |   | || |   | |    | | | |
+| |  _| |___/ |  | || | _| |_\   |_  | || |  _| |___.' / | |
+| | |_________|  | || ||_____|\____| | || | |________.'  | |
+| |              | || |              | || |              | |
+------------------------------------------------------------
+I am Reading Nothing ,So : It is The End of File Or A big Problem.
+We Will implement a feature in future to inspect the End of The File
+Thanks For Using Our App
